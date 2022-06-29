@@ -7,6 +7,7 @@ export const ProductFormComponent = styled.div`
   height: 350px;
   align-items: center;
   position: relative;
+  margin-bottom: 20px;
 
   img {
     width: 100%;
@@ -17,6 +18,8 @@ export const ProductFormComponent = styled.div`
 
   button {
     width: 80%;
+    min-width:130px;
+    padding: 0px;
     opacity: 0.7;
     position: absolute;
     top: 255px;
